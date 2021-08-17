@@ -1,0 +1,85 @@
+.Headre{
+    text-align: center;
+}
+h1{
+    color:red;
+}
+.text{
+    margin: auto;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.App-header{
+    
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.step{
+    text-align: center !important;
+    margin: auto;
+    width: 42%;
+    justify-content: center;
+    align-items: center;
+    
+    height: auto;
+}
+.input{
+    width: 100%;
+}
+.teble-row{
+    background-color: rgb(224, 209, 185);
+    
+}
+.btn{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+.back-btn{
+    margin-right: 40px !important;
+    text-align: start;
+}
+.MuiStepper-horizontalP{
+    margin: auto !important;
+}
+.stepper{
+width: 100%;
+margin: auto !important;
+}
+@media (max-width:750px){
+    .step {
+       
+        width: 48%;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    .input{
+        width: 100%;
+    }
+    .stepper{
+        width: 100%;
+    }
+}
+@media (max-width:350px){
+.text{
+    margin: auto !important;
+    width: 90%;
+}
+.step{
+    width: 100%;
+    
+}
+.stepper{
+    text-align: center;
+    width: 100%;
+   
+}
+h1{
+    font-size: 17px;
+}
+}
